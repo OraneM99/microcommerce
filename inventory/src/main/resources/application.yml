@@ -1,0 +1,14 @@
+server:
+  port: 8901
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:inventorydb
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
